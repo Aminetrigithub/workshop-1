@@ -205,26 +205,58 @@ footer p {
   border: solid red;
 
 }
-.underline{
+
+.underline {
   padding-bottom: 10px;
   border-bottom: 1px solid darkgoldenrod;
 }
+
 .where-text {
   float: right;
   width: 50%;
 }
 
-.chip{
-  width: 35px ;
+.chip {
+  width: 35px;
   border-radius: 100%;
   background: #333;
   color: white;
   display: inline-block;
   text-align: center;
 }
-.chip-purple{
+
+.chip-purple {
   background: #A0006E;
 }
-.chip-brown{
-  background:#6E491E;
+
+.chip-brown {
+  background: #6E491E;
+}
+
+.contact {
+  padding: 180px 0px;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+
+}
+
+.contact-form-container form label {
+  display: block;
+  font-weight: 700px;
+}
+
+.contact-form-container form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.contact-form-container form textarea{
+  min-height: 80px;
 }
