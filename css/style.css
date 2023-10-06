@@ -78,14 +78,15 @@ p {
 
 .vp-content {
   max-width: 600px;
-  padding-top: 170px;
+  padding-top: 150px;
+  padding: 20px;
   color: white;
   display: block;
   margin: auto;
 }
 
 .vp-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .separator {
@@ -155,7 +156,7 @@ p {
 }
 
 .reservation {
-  padding: 100px 0px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -241,7 +242,7 @@ footer p {
 .contact-form-container {
   max-width: 600px;
   margin: auto;
-
+padding: 20px;
 }
 
 .contact-form-container form label {
